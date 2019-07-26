@@ -1,0 +1,228 @@
+body{
+  font-family:'Open Sans', sans-serif; font-sixe:40px;
+}
+h1{
+    font-family:'Oswald', sans-serif;
+    font-size:150px;
+    text-decoration: underline;
+}
+h2{  font-family:'Open Sans', sans-serif; color:teal;}
+h3{font-family:'Oswald', sans-serif;
+ font-size:60px}
+
+/* text{
+  font-family:'Open Sans', sans-serif;
+  font-size:18px;
+  float:right;
+} */
+div{
+  padding:20px;
+}
+.clearfix{
+  overflow:auto;
+}
+
+.img2{
+  float:left;
+}
+.topnav{
+  background-color: #ffffff;
+  overflow:hidden;
+}
+
+.topnav a{
+  float:right;
+  color:black;
+  text-align:center;
+  padding: 20px 22px;
+  text-decoration:none;
+  font-size:18px;
+}
+
+.topnav a:hover{
+  background-color:white;
+  color:#b8b6b6;
+}
+
+.topnav a.active{
+  background-color: black;
+  color:white;
+}
+
+.title a{
+  float:left;
+  color:black;
+  text-align:center;
+  padding: 20px 22px;
+  text-decoration:none;
+  font-size:30px
+}
+
+.foo{
+  float:left;
+  text-align:center;
+  padding:10px 22px;
+
+}
+
+.img2{
+  float:left;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color:white;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+.center-right {
+  font-family: "Open Sans", sans-serif;
+  font-size:
+  position:absolute;
+  top:50%;
+  left:51%;
+  transform:translate(-50%,-50%);
+}
+
+
+hr{
+  border:10px solid #00B4F1;
+  border-radius: 5px;
+}
+.header{
+  position:relative;
+  padding:10px;
+  text-align: center;
+  background-image: image(abstractwaves.jpeg);
+  background-color:#c0e7ed;
+  color:white;
+  font-size:30px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:900);
+*, *:before, *:after{
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;
+    ;
+}
+div.foo{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+.letter{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 6em;
+  margin: 0.2em;
+  position: relative;
+  color: #00B4F1;
+  transform-style: preserve-3d;
+  perspective: 400;
+  z-index: 1;
+}
+.letter:before, .letter:after{
+  position:absolute;
+  content: attr(data-letter);
+  transform-origin: top left;
+  top:0;
+  left:0;
+}
+.letter, .letter:before, .letter:after{
+  transition: all 0.3s ease-in-out;
+}
+.letter:before{
+  color: #fff;
+  text-shadow:
+    -1px 0px 1px rgba(255,255,255,.8),
+    1px 0px 1px rgba(0,0,0,.8);
+  z-index: 3;
+  transform:
+    rotateX(0deg)
+    rotateY(-15deg)
+    rotateZ(0deg);
+}
+.letter:after{
+  color: rgba(0,0,0,.11);
+  z-index:2;
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(0deg)
+    skew(0deg,1deg);
+}
+.letter:hover:before{
+  color: #fafafa;
+  transform:
+    rotateX(0deg)
+    rotateY(-40deg)
+    rotateZ(0deg);
+}
+.letter:hover:after{
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(40deg)
+    rotateZ(0deg)
+    skew(0deg,22deg);
+}
+ul. a{
+  list-style-type: square;
+}
+
+button{
+  background-color: #4CAF50;
+  border:none;
+  color: white;
+  padding: 15px 32px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-family:"Oswald", sans-serif;
+  font-size:17px;
+  width:50%;
+
+}
